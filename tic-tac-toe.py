@@ -40,3 +40,5 @@ def player_input():
     # RETURN A TUPLE FOR ASSIGNING THE MARKERS DIRECTLY TO A VARIABLE LATER
     return(player1 , player2)
 
+# ASSIGN A MARKER VARIABLE RETURNED FROM THE INPUT FUNCTION
+player1_marker , player2_marker = player_input()
