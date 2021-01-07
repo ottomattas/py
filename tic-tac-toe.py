@@ -18,3 +18,25 @@ def display_board(board):
     print(board[7] + '|' + board[8] + '|' + board[9])
     print('-----')
 
+# DEFINE THE PLAYER MARKER SELECTION FUNCTION
+def player_input():
+    marker = ''
+
+    # KEEP ASKIGN FOR PLAYER 1 MARKER
+    while marker != 'X' and marker != 'O' :
+        marker = input('Select which marker would you prefer to play first (X / O): ')
+
+    # ASSIGN PLAYER 2 MARKER
+    player1 = marker
+
+    if player1 == 'X':
+        player2 = 'O'
+    else:
+        player2 = 'X'
+
+    # VERIFY PLAYER MARKERS
+    print(player1 + ' goes first, then ' + player2)
+
+    # RETURN A TUPLE FOR ASSIGNING THE MARKERS DIRECTLY TO A VARIABLE LATER
+    return(player1 , player2)
+
