@@ -46,3 +46,17 @@ player1_marker , player2_marker = player_input()
 # DEFINE THE MARKER PLACEMENT FUNCTION
 def place_marker(board, marker, position):
     board[position] = marker
+
+# DEFINE THE WIN VALIDATION FUNCTION
+def win_check(board, marker):
+    if (board[1] == board[2] == board[3] == marker) or \
+    (board[4] == board[5] == board[6] == marker) or \
+    (board[7] == board[8] == board[9] == marker) or \
+    (board[1] == board[5] == board[9] == marker) or \
+    (board[3] == board[5] == board[7] == marker) or \
+    (board[1] == board[4] == board[7] == marker) or \
+    (board[2] == board[5] == board[8] == marker) or \
+    (board[3] == board[6] == board[9] == marker):
+        return True
+    else:
+        return False
