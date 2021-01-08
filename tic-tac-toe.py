@@ -42,3 +42,7 @@ def player_input():
 
 # ASSIGN A MARKER VARIABLE RETURNED FROM THE INPUT FUNCTION
 player1_marker , player2_marker = player_input()
+
+# DEFINE THE MARKER PLACEMENT FUNCTION
+def place_marker(board, marker, position):
+    board[position] = marker
