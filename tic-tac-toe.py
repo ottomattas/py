@@ -122,3 +122,21 @@ def replay():
     else:
         print('You have had enough for now. See you later!')
         return False
+
+# HERE IS THE GAME
+print('Welcome to Tic Tac Toe!')
+
+while True:
+    display_board()
+
+
+    #while game_on:
+        #Player 1 Turn
+        
+        
+        # Player2's turn.
+            
+            #pass
+
+    #if not replay():
+        #break
