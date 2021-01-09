@@ -108,3 +108,17 @@ def player_choice(board):
         else:
             print('The position is already taken, choose another one.')
             return False
+
+# DEFINE THE REPLAY FUNCTION
+def replay():
+    restart = ''
+    # KEEP ASKING FOR PLAYER CHOICE
+    while restart != 'Y' and restart != 'N' :
+        restart = input('Play again (Y / N): ')
+
+    if restart == 'Y':
+        print('Here we go again. Good luck to both players!')
+        return True
+    else:
+        print('You have had enough for now. See you later!')
+        return False
