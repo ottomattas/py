@@ -85,3 +85,26 @@ def full_board_check(board):
         return True
     else:
         return False
+
+# DEFINE THE PLAYER NEXT MOVE CHOICE FUNCTION
+def player_choice(board):
+    position = ''
+    within_range = False
+    
+    while position.isdigit() == False or within_range == False or space_check() == False:
+        position = input("Please enter your desired position (1-9): ")
+        
+        if position.isdigit() == False:
+            print("Sorry that is not a digit!")
+            
+        if position.isdigit() == True:
+            if int(position) in range(1,9):
+                within_range = True
+            else:
+                within_range = False
+
+        if space_check() == True:
+            return position
+        else:
+            print('The position is already taken, choose another one.')
+            return False
