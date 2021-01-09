@@ -69,3 +69,10 @@ def choose_first():
         return player1_marker
     else:
         return player2_marker
+
+# DEFINE THE SPACE CHECKING FUNCTION
+def space_check(board, position):
+    if board[position] == ' ':
+        return True
+    else:
+        return False
