@@ -9,6 +9,8 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
 
+import random
+
 # DEFINE THE GAME BOARD DISPLAY FUNCTION
 def display_board(board):
     print(board[1] + '|' + board[2] + '|' + board[3])
@@ -60,3 +62,10 @@ def win_check(board, marker):
         return True
     else:
         return False
+
+# DEFINE THE FUNCTION TO ASSIGN THE FIRST MOVER
+def choose_first():
+    if random.randint(1 , 2) == 1:
+        return player1_marker
+    else:
+        return player2_marker
