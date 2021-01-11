@@ -126,6 +126,7 @@ def replay():
 # HERE IS THE GAME
 print('Welcome to Tic Tac Toe!')
 
+while True:
 board = ['','','','','','','','','','']
 
 while True:
