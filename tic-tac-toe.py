@@ -127,9 +127,8 @@ def replay():
 print('Welcome to Tic Tac Toe!')
 
 while True:
-board = ['','','','','','','','','','']
-
-while True:
+    board = ['','','','','','','','','','']
+    player1_marker, player2_marker = player_input()
     display_board()
 
 
