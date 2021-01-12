@@ -21,7 +21,7 @@ def user_choice():
         choice = input('Please enter a number (0-10): ')
         
         if choice.isdigit() == False:
-            print('Sorry that is not a digit!')
+            print('Sorry, that is not a digit!')
             
         if choice.isdigit() == True:
             if int(choice) in range(0,10):
