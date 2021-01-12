@@ -24,7 +24,7 @@ def display_board(board):
 def player_input():
     marker = ''
 
-    # KEEP ASKIGN FOR PLAYER 1 MARKER
+    # KEEP ASKING FOR PLAYER 1 MARKER
     while marker != 'X' and marker != 'O' :
         marker = input('Select which marker would you prefer to play first (X / O): ')
 
