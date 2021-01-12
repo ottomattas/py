@@ -125,7 +125,7 @@ def replay():
         return False
 
 # HERE IS THE GAME
-print('Welcome to Tic Tac Toe!')
+print('Welcome to Tic-tac-toe!')
 
 while True:
     board = ['','','','','','','','','','']
