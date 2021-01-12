@@ -135,6 +135,8 @@ while True:
     turn = choose_first()
     game_on = ' '
 
+    # VERIFY FIRST TURN
+    print(turn + ' will go first.')
 
     #while game_on:
         # Player 1 Turn
