@@ -11,7 +11,7 @@ __status__ = "Development"
 
 def user_choice():
     
-    choice = 'WRONG'
+    choice = ' '
     within_range = False
     
     while choice.isdigit() == False or within_range == False:
