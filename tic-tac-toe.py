@@ -134,7 +134,7 @@ while True:
 
 
     #while game_on:
-        #Player 1 Turn
+        # Player 1 Turn
         
         
         # Player2's turn.
