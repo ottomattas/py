@@ -28,9 +28,10 @@ def player_input():
     while marker != 'X' and marker != 'O' :
         marker = input('Select which marker would you prefer to play first (X / O): ')
 
-    # ASSIGN PLAYER 2 MARKER
+    # ASSIGN PLAYER 1 MARKER
     player1 = marker
 
+    # ASSIGN PLAYER 2 MARKER
     if player1 == 'X':
         player2 = 'O'
     else:
