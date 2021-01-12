@@ -132,7 +132,7 @@ while True:
     # DEFINE VARIABLES
     board = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
     player1_marker, player2_marker = player_input()
-    display_board()
+    turn = choose_first()
 
 
     #while game_on:
