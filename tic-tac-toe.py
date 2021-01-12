@@ -128,6 +128,7 @@ def replay():
 print('Welcome to Tic-tac-toe!')
 
 while True:
+
     # DEFINE VARIABLES
     board = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
     player1_marker, player2_marker = player_input()
