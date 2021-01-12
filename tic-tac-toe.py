@@ -138,6 +138,10 @@ while True:
     # VERIFY FIRST TURN
     print(turn + ' will go first.')
 
+    # KEEP ASKING FOR PLAYER INPUT ON STARTING
+    while game_on != 'Y' and game_on != 'N' :
+        game_on = input('Do you wish to start the game now (Y / N): ')
+
     #while game_on:
         # Player 1 Turn
         
