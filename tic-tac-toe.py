@@ -37,9 +37,6 @@ def player_input():
     else:
         player2 = 'X'
 
-    # VERIFY PLAYER MARKERS
-    print(player1 + ' goes first, then ' + player2)
-
     # RETURN A TUPLE FOR ASSIGNING THE MARKERS DIRECTLY TO A VARIABLE LATER
     return(player1 , player2)
 
