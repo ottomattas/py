@@ -4,7 +4,7 @@
 __author__ = "Otto Mättas"
 __copyright__ = "Copyright 2021, The Python Problems"
 __license__ = "MIT"
-__version__ = "0.1"
+__version__ = "0.2"
 __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
@@ -147,7 +147,6 @@ while True:
         
         
         # Player2's turn.
-            
             #pass
 
     if not replay():
