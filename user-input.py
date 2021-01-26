@@ -34,4 +34,3 @@ def user_choice():
 
     # RETURN THE USER CHOICE AS AN INT
     return int(choice)
-    
