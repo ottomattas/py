@@ -86,7 +86,7 @@ def player_choice(board):
     position = ''
     within_range = False
     
-    while position.isdigit() == False or within_range == False or space_check() == False:
+    while position.isdigit() == False or within_range == False or space_check(board,position) == False:
         position = input("Please enter your desired position (1-9): ")
         
         if position.isdigit() == False:
@@ -98,7 +98,7 @@ def player_choice(board):
             else:
                 within_range = False
 
-        if space_check() == True:
+        if space_check(board,position) == True:
             return position
         else:
             print('The position is already taken, choose another one.')
