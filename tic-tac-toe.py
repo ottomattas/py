@@ -28,14 +28,11 @@ def player_input():
     while not (marker == 'X' or marker == 'O'):
         marker = input('Player 1: Select which marker would you prefer to play (X / O): ').upper()
 
-    # ASSIGN PLAYER 1 MARKER
-    player1 = marker
-
-    # ASSIGN PLAYER 2 MARKER
-    if player1 == 'X':
-        player2 = 'O'
+    # ASSIGN AND RETURN PLAYER MARKERS
+    if marker == 'X':
+        return ('X', 'O')
     else:
-        player2 = 'X'
+        return ('O', 'X')
 
     # RETURN A TUPLE FOR ASSIGNING THE MARKERS DIRECTLY TO A VARIABLE LATER
     return(player1 , player2)
