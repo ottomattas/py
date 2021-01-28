@@ -142,5 +142,6 @@ while True:
         # Player2's turn.
             #pass
 
+    # CHECK FOR REPLAY
     if not replay():
         break
