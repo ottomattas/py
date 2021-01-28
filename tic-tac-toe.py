@@ -86,7 +86,7 @@ def replay():
     restart = ''
     # KEEP ASKING FOR PLAYER CHOICE
     while restart != 'Y' and restart != 'N' :
-        restart = input('Play again (Y / N): ')
+        restart = input('Play again (Y / N): ').upper()[0]
 
     if restart == 'Y':
         print('Here we go again. Good luck to both players!')
