@@ -80,7 +80,12 @@ def player_choice(board):
     position = 0
     
     while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position):
-        position = int(input('Please enter your desired position (1-9): '))
+        position = int(input(
+        '1|2|3\tAvailable\n'
+        '-----\tpositions\n'
+        '4|5|6\t<--------\n'
+        '-----\tPlease enter your\n'
+        '7|8|9\tdesired position (1-9): '))
     return position
 
 # DEFINE THE REPLAY FUNCTION
@@ -104,21 +109,9 @@ def replay():
 # HERE IS THE GAME #
 ####################
 
-# PLAYER INSTRUCTIONS
+# WELCOME PLAYER
 print('\n' * 60)
 print('Welcome to Tic-tac-toe!')
-print()
-print('The play table looks as follows,')
-print('the numbers representing the positions')
-print('which you can use to place your marker:')
-print()
-print('-----')
-print('1|2|3')
-print('-----')
-print('4|5|6')
-print('-----')
-print('7|8|9')
-print('-----')
 
 while True:
 
