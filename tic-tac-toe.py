@@ -71,7 +71,7 @@ def space_check(board, position):
 def full_board_check(board):
     for i in range(1,10):
         if space_check(board, i):
-        return False
+            return False
     return True
 
 # DEFINE THE PLAYER NEXT MOVE CHOICE FUNCTION
@@ -80,7 +80,7 @@ def player_choice(board):
     
     while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position):
         position = int(input('Please enter your desired position (1-9): '))
-            return position
+    return position
 
 # DEFINE THE REPLAY FUNCTION
 def replay():
@@ -128,19 +128,61 @@ while True:
 
     # KEEP ASKING FOR PLAYER INPUT ON STARTING
     play_game = input('Do you wish to start the game now (Y / N): ').upper()[0]
-    
+
     if play_game == 'Y':
         game_on = True
     else:
         game_on = False
 
+    # START THE GAME
+    while game_on:
 
-    #while game_on:
-        # Player 1 Turn
-        
-        
-        # Player2's turn.
-            #pass
+        # PLAYER 1 MOVES
+        if turn == 'Player 1':
+                        
+            display_board(board)
+            position = player_choice(board)
+            place_marker(board, player1_marker, position)
+
+            # PLAYER 1 WINS
+            if win_check(board, player1_marker):
+                display_board(board)
+                print('Congratulations! You have won the game!')
+                game_on = False
+            else:
+
+                # CHECK FOR DRAW
+                if full_board_check(board):
+                    display_board(board)
+                    print('The game is a draw!')
+                    break
+
+                # PASS THE TURN TO PLAYER 2
+                else:
+                    turn = 'Player 2'
+        else:
+
+            # PLAYER 2 MOVES
+            display_board(board)
+            position = player_choice(board)
+            place_marker(board, player2_marker, position)
+
+            # PLAYER 2 WINS
+            if win_check(board, player2_marker):
+                display_board(board)
+                print('Player 2 has won!')
+                game_on = False
+            else:
+
+                # CHECK FOR DRAW
+                if full_board_check(board):
+                    display_board(board)
+                    print('The game is a draw!')
+                    break
+
+                # PASS THE TURN TO PLAYER 1
+                else:
+                    turn = 'Player 1'
 
     # CHECK FOR REPLAY
     if not replay():
