@@ -13,6 +13,7 @@ import random
 
 # DEFINE THE GAME BOARD DISPLAY FUNCTION
 def display_board(board):
+
     # PRINT EMPTY LINES TO CLEAR PREVIOUS VIEW
     print('\n' * 40)
     print('-----')
@@ -84,6 +85,7 @@ def player_choice(board):
 # DEFINE THE REPLAY FUNCTION
 def replay():
     restart = ''
+
     # KEEP ASKING FOR PLAYER CHOICE
     while restart != 'Y' and restart != 'N' :
         restart = input('Play again (Y / N): ').upper()[0]
