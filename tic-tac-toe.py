@@ -15,7 +15,7 @@ import random
 def display_board(board):
 
     # PRINT EMPTY LINES TO CLEAR PREVIOUS VIEW
-    print('\n' * 40)
+    print('\n' * 60)
     print('-----')
     print(board[1] + '|' + board[2] + '|' + board[3])
     print('-----')
