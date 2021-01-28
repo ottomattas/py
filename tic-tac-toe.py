@@ -126,14 +126,18 @@ while True:
     board = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
     player1_marker, player2_marker = player_input()
     turn = choose_first()
-    game_on = ' '
 
     # VERIFY FIRST TURN
     print(turn + ' will go first.')
 
     # KEEP ASKING FOR PLAYER INPUT ON STARTING
-    while game_on != 'Y' and game_on != 'N' :
-        game_on = input('Do you wish to start the game now (Y / N): ')
+    play_game = input('Do you wish to start the game now (Y / N): ').upper()[0]
+    
+    if play_game == 'Y':
+        game_on = True
+    else:
+        game_on = False
+
 
     #while game_on:
         # Player 1 Turn
