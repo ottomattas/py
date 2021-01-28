@@ -105,6 +105,21 @@ def replay():
 # HERE IS THE GAME #
 ####################
 
+# PLAYER INSTRUCTIONS
+print('Welcome to Tic Tac Toe!')
+print()
+print('The play table looks as follows,')
+print('the numbers representing the positions')
+print('which you can use to place your marker:')
+print()
+print('-----')
+print('1|2|3')
+print('-----')
+print('4|5|6')
+print('-----')
+print('7|8|9')
+print('-----')
+
 while True:
 
     # DEFINE VARIABLES
