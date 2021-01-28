@@ -74,12 +74,10 @@ def space_check(board, position):
 
 # DEFINE THE FULL BOARD CHECKING FUNCTION
 def full_board_check(board):
-    if board[1] and board[2] and board[3] and \
-       board[4] and board[5] and board[6] and \
-       board[7] and board[8] and board[9] != ' ':
-        return True
-    else:
+    for i in range(1,10):
+        if space_check(board, i):
         return False
+    return True
 
 # DEFINE THE PLAYER NEXT MOVE CHOICE FUNCTION
 def player_choice(board):
