@@ -70,10 +70,8 @@ def choose_first():
 
 # DEFINE THE SPACE CHECKING FUNCTION
 def space_check(board, position):
-    if board[position] == ' ':
-        return True
-    else:
-        return False
+
+    return board[position] == ' '
 
 # DEFINE THE FULL BOARD CHECKING FUNCTION
 def full_board_check(board):
