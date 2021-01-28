@@ -153,7 +153,7 @@ while True:
             # PLAYER 1 WINS
             if win_check(board, player1_marker):
                 display_board(board)
-                print('Congratulations! You have won the game!')
+                print('Congratulations! Player 1 has won the game!')
                 game_on = False
             else:
 
@@ -176,7 +176,7 @@ while True:
             # PLAYER 2 WINS
             if win_check(board, player2_marker):
                 display_board(board)
-                print('Player 2 has won!')
+                print('Congratulations. Player 2 has won the game!')
                 game_on = False
             else:
 
