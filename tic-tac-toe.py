@@ -102,7 +102,7 @@ def replay():
 ####################
 
 # PLAYER INSTRUCTIONS
-print('Welcome to Tic Tac Toe!')
+print('Welcome to Tic-tac-toe!')
 print()
 print('The play table looks as follows,')
 print('the numbers representing the positions')
