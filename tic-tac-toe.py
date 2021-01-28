@@ -31,6 +31,7 @@ def player_input():
     # KEEP ASKING FOR PLAYER 1 MARKER
     while not (marker == 'X' or marker == 'O'):
         marker = input('Player 1: Select which marker would you prefer to play (X / O): ').upper()
+        print('\n' * 60)
 
     # ASSIGN AND RETURN PLAYER MARKERS
     if marker == 'X':
@@ -91,9 +92,11 @@ def replay():
         restart = input('Play again (Y / N): ').upper()[0]
 
     if restart == 'Y':
+        print('\n' * 60)
         print('Here we go again. Good luck to both players!')
         return True
     else:
+        print('\n' * 60)
         print('You have had enough for now. See you later!')
         return False
 
@@ -102,6 +105,7 @@ def replay():
 ####################
 
 # PLAYER INSTRUCTIONS
+print('\n' * 60)
 print('Welcome to Tic-tac-toe!')
 print()
 print('The play table looks as follows,')
