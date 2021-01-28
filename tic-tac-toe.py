@@ -101,8 +101,9 @@ def replay():
         print('You have had enough for now. See you later!')
         return False
 
-# HERE IS THE GAME
-print('Welcome to Tic-tac-toe!')
+####################
+# HERE IS THE GAME #
+####################
 
 while True:
 
