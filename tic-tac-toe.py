@@ -113,6 +113,7 @@ def replay():
 print('\n' * 60)
 print('Welcome to Tic-tac-toe!')
 
+# START GAME
 while True:
 
     # DEFINE VARIABLES
