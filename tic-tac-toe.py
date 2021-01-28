@@ -81,26 +81,11 @@ def full_board_check(board):
 
 # DEFINE THE PLAYER NEXT MOVE CHOICE FUNCTION
 def player_choice(board):
-    position = ''
-    within_range = False
+    position = 0
     
-    while position.isdigit() == False or within_range == False or space_check(board,position) == False:
-        position = input("Please enter your desired position (1-9): ")
-        
-        if position.isdigit() == False:
-            print("Sorry that is not a digit!")
-            
-        if position.isdigit() == True:
-            if int(position) in range(1,9):
-                within_range = True
-            else:
-                within_range = False
-
-        if space_check(board,position) == True:
+    while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position):
+        position = int(input('Please enter your desired position (1-9): '))
             return position
-        else:
-            print('The position is already taken, choose another one.')
-            return False
 
 # DEFINE THE REPLAY FUNCTION
 def replay():
