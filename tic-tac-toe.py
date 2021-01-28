@@ -13,6 +13,7 @@ import random
 
 # DEFINE THE GAME BOARD DISPLAY FUNCTION
 def display_board(board):
+    print('-----')
     print(board[1] + '|' + board[2] + '|' + board[3])
     print('-----')
     print(board[4] + '|' + board[5] + '|' + board[6])
