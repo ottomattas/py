@@ -37,12 +37,6 @@ def player_input():
     else:
         return ('O', 'X')
 
-    # RETURN A TUPLE FOR ASSIGNING THE MARKERS DIRECTLY TO A VARIABLE LATER
-    return(player1 , player2)
-
-# ASSIGN A MARKER VARIABLE RETURNED FROM THE INPUT FUNCTION
-player1_marker , player2_marker = player_input()
-
 # DEFINE THE MARKER PLACEMENT FUNCTION
 def place_marker(board, marker, position):
     board[position] = marker
@@ -64,9 +58,9 @@ def win_check(board, marker):
 # DEFINE THE FUNCTION TO ASSIGN THE FIRST MOVER
 def choose_first():
     if random.randint(1 , 2) == 1:
-        return player1_marker
+        return 'Player 1'
     else:
-        return player2_marker
+        return 'Player 2'
 
 # DEFINE THE SPACE CHECKING FUNCTION
 def space_check(board, position):
