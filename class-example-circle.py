@@ -32,7 +32,7 @@ class Circle:
     def getCircumference(self):
         return self.radius * self.pi * 2
 
-# CREATE AN INSTANE OF A CIRCLE THROUGH THE CLASS
+# CREATE AN INSTANCE OF A CIRCLE THROUGH THE CLASS
 c = Circle()
 
 # PRINT VALUES
