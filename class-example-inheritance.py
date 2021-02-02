@@ -40,3 +40,15 @@ class Dog(Animal):
     # DEFINE A CLASS METHOD FOR BARKING
     def bark(self):
         print("Woof!")
+
+# CREATE AN INSTANCE OF A DOG THROUGH THE DOG CLASS
+d = Dog()
+
+# CALL OVERWRITTEN CLASS METHOD
+d.whoAmI()
+
+# CALL INHERITED CLASS METHOD
+d.eat()
+
+# CALL CLASS METHOD
+d.bark()
