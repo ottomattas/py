@@ -39,3 +39,14 @@ c = Circle()
 print('Radius is: ',c.radius)
 print('Area is: ',c.area)
 print('Circumference is: ',c.getCircumference())
+
+# PRINT A SEPARATOR WITH A COMMENT
+print('-----------------------')
+print('Resetting the radius:')
+# RESET THE RADIUS FOR THE INSTANCE
+c.setRadius(2)
+
+# PRINT VALUES FOR THE RESET INSTANCE
+print('Radius is: ',c.radius)
+print('Area is: ',c.area)
+print('Circumference is: ',c.getCircumference())
