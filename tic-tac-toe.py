@@ -136,7 +136,7 @@ while True:
     turn = choose_first()
 
     # VERIFY FIRST TURN
-    print(turn + ' will go first.')
+    print(turn + ' will go first. Do not worry, the order was chosen randomly.')
 
     # KEEP ASKING FOR PLAYER INPUT ON STARTING
     play_game = input('Do you wish to start the game now (Y / N): ').upper()[0]
