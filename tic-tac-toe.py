@@ -156,7 +156,7 @@ while True:
             position = player_choice(board)
             place_marker(board, player1_marker, position)
 
-            # PLAYER 1 WINS
+            # PLAYER 1 WIN CHECK
             if win_check(board, player1_marker):
                 display_board(board)
                 print('Congratulations! Player 1 has won the game!')
@@ -179,7 +179,7 @@ while True:
             position = player_choice(board)
             place_marker(board, player2_marker, position)
 
-            # PLAYER 2 WINS
+            # PLAYER 2 WIN CHECK
             if win_check(board, player2_marker):
                 display_board(board)
                 print('Congratulations. Player 2 has won the game!')
