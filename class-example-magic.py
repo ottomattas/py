@@ -33,3 +33,18 @@ class Book:
     # DEFINE MAGIC METHOD FOR DELETE KEY
     def __del__(self):
         print("A book is destroyed")
+
+# CREATE AN INSTANCE OF A BOOK THROUGH THE BOOK CLASS
+book = Book("Python Rocks!", "Jose Portilla", 159)
+
+# SHOW MAGIC METHODS IN ACTION #
+################################
+
+# STRING MAGIC
+print(book)
+
+# LENGHT MAGIC
+print(len(book))
+
+# DEL KEY MAGIC
+del book
