@@ -127,6 +127,8 @@ while True:
 
     # DEFINE VARIABLES
     board = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ']
+
+    # TUPLE UNPACKING FOR GETTING PLAYER MARKERS
     player1_marker, player2_marker = player_input()
     turn = choose_first()
 
