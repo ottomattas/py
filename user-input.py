@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This is a simple user input script."""
+"""This is a simple user input function."""
 
 __author__ = "Otto Mättas"
 __copyright__ = "Copyright 2021, The Python Problems"
