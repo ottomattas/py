@@ -151,7 +151,7 @@ while True:
 
         # PLAYER 1 MOVES
         if turn == 'Player 1':
-                        
+
             display_board(board)
             position = player_choice(board)
             place_marker(board, player1_marker, position)
@@ -167,7 +167,7 @@ while True:
                 if full_board_check(board):
                     display_board(board)
                     print('The game is a draw!')
-                    break
+                    game_on = False
 
                 # PASS THE TURN TO PLAYER 2
                 else:
@@ -190,7 +190,7 @@ while True:
                 if full_board_check(board):
                     display_board(board)
                     print('The game is a draw!')
-                    break
+                    game_on = False
 
                 # PASS THE TURN TO PLAYER 1
                 else:
@@ -198,4 +198,4 @@ while True:
 
     # CHECK FOR REPLAY
     if not replay():
-        break
+        game_on = False
