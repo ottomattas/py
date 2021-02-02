@@ -33,6 +33,7 @@ def display_board(board):
     print()
 
 # DEFINE THE PLAYER MARKER SELECTION FUNCTION
+# OUTPUT = (Player 1 marker, Player 2 marker)
 def player_input():
     marker = ''
 
