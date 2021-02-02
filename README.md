@@ -4,6 +4,7 @@
 Filename | Content
 ------------ | -------------
 **class-example-circle.py** | a simple class to calculate area and circumference for a circle
+**class-example-inheritance.py** | a simple class inheritance example to show basic principles
 **hello-world-gui-remi.py** | a simple GUI to be rendered in browser using [remi](https://pypi.org/project/remi/)
 **hello-world-gui-wx-1.py** | a simple GUI using [wxPython](https://www.wxpython.org/pages/overview/)
 **hello-world-gui-wx-2.py** | a simple GUI with a bit more meat using [wxPython](https://www.wxpython.org/pages/overview/)
