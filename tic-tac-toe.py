@@ -86,8 +86,11 @@ def full_board_check(board):
 
 # DEFINE THE PLAYER NEXT MOVE CHOICE FUNCTION
 def player_choice(board):
+
+    # START COUNTING POSITION FROM 0
     position = 0
     
+    # CHECK IF THE ENTERED POSITION IS VALID AND NOT TAKEN
     while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position):
         position = int(input(
         '1|2|3\tAvailable\n'
