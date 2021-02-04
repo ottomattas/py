@@ -126,8 +126,8 @@ cylinder = Cylinder(2,3)
 print('-----------------------')
 print('Cylinder calculations')
 # PRINT VALUES
-print('Volume is: ',cylinder.volume)
-print('Surface area is: ',cylinder.surface_area)
+print('Volume is: ',cylinder.volume())
+print('Surface area is: ',cylinder.surface_area())
 
 ############
 # LINE #
@@ -142,5 +142,5 @@ line = Line(coordinate1,coordinate2)
 print('-----------------------')
 print('Line calculations')
 # PRINT VALUES
-print('Distance is: ',line.distance)
-print('Slope is: ',line.slope,'degrees')
+print('Distance is: ',line.distance())
+print('Slope is: ',line.slope(),'degrees')
