@@ -91,6 +91,9 @@ class Line:
 # CREATE INSTANCES AND PRINT RESULTS #
 ######################################
 
+##########
+# CIRCLE #
+##########
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 circle = Circle()
 
