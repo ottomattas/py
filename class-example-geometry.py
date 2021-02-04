@@ -98,6 +98,7 @@ class Line:
 circle = Circle()
 
 # PRINT A SEPARATOR WITH A COMMENT
+print()
 print('-----------------------')
 print('Circle calculations')
 # PRINT VALUES
@@ -107,7 +108,7 @@ print('Circumference is: ',circle.getCircumference())
 
 # PRINT A SEPARATOR WITH A COMMENT
 print('-----------------------')
-print('Resetting the circle radius:')
+print('Resetting the circle radius')
 # RESET THE RADIUS FOR THE INSTANCE
 circle.setRadius(2)
 
@@ -123,6 +124,7 @@ print('Circumference is: ',circle.getCircumference())
 cylinder = Cylinder(2,3)
 
 # PRINT A SEPARATOR WITH A COMMENT
+print()
 print('-----------------------')
 print('Cylinder calculations')
 # PRINT VALUES
@@ -139,6 +141,7 @@ coordinate2 = (8,10)
 line = Line(coordinate1,coordinate2)
 
 # PRINT A SEPARATOR WITH A COMMENT
+print()
 print('-----------------------')
 print('Line calculations')
 # PRINT VALUES
