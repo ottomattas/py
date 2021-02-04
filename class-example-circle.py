@@ -26,11 +26,11 @@ class Circle:
     # DEFINE METHOD FOR RESETTING RADIUS
     def setRadius(self, new_radius):
         self.radius = new_radius
-        self.area = self.pi * new_radius * new_radius
+        self.area = Circle.pi * new_radius * new_radius
 
     # DEFINE METHOD FOR CALCULATING CIRCUMFERENCE
     def getCircumference(self):
-        return  2 * self.pi * self.radius
+        return  2 * Circle.pi * self.radius
 
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
