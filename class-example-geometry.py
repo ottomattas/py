@@ -32,6 +32,27 @@ class Circle:
     def getCircumference(self):
         return  2 * Circle.pi * self.radius
 
+# DEFINE THE CYLINDER CLASS / OBJECT
+class Cylinder:
+    
+    # DEFINE CLASS ATTRIBUTES
+    pi = 3.14
+
+    # CYLINDER IS INSTANTIATED (WITH A DEFAULT HEIGHT AND RADIUS)
+    def __init__(self,height=1,radius=1):
+
+        # DEFINE INSTANCE ATTRIBUTES
+        self.height = height
+        self.radius = radius
+
+    # DEFINE METHOD FOR CALCULATING VOLUME  
+    def volume(self):
+        return 2 * Cylinder.pi * self.radius
+    
+    # DEFINE METHOD FOR CALCULATING SURFACE AREA
+    def surface_area(self):
+        return Cylinder.pi * self.radius * self.radius
+
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
 
