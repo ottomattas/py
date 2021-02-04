@@ -147,5 +147,7 @@ print()
 print('-----------------------')
 print('Line calculations')
 # PRINT VALUES
+print('Point 1 coordinates are: ',coordinate1)
+print('Point 2 coordinates are: ',coordinate2)
 print('Distance is: ',line.distance())
 print('Slope is: ',line.slope(),'degrees')
