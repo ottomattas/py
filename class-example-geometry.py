@@ -10,6 +10,10 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
 
+#####################
+# CLASS DEFINITIONS #
+#####################
+
 # DEFINE THE CIRCLE CLASS / OBJECT
 class Circle:
 
@@ -82,6 +86,10 @@ class Line:
 
         # RETURN SLOPE
         return (y2 - y1) / (x2 - x1)
+
+######################################
+# CREATE INSTANCES AND PRINT RESULTS #
+######################################
 
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
