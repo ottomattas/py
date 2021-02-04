@@ -21,12 +21,12 @@ class Circle:
 
         # DEFINE INSTANCE ATTRIBUTES
         self.radius = radius 
-        self.area = Circle.pi * radius * radius
+        self.area = Circle.pi * radius ** 2
 
     # DEFINE METHOD FOR RESETTING RADIUS
     def setRadius(self, new_radius):
         self.radius = new_radius
-        self.area = Circle.pi * new_radius * new_radius
+        self.area = Circle.pi * new_radius ** 2
 
     # DEFINE METHOD FOR CALCULATING CIRCUMFERENCE
     def getCircumference(self):
@@ -51,7 +51,7 @@ class Cylinder:
     
     # DEFINE METHOD FOR CALCULATING SURFACE AREA
     def surface_area(self):
-        return Cylinder.pi * self.radius * self.radius
+        return Cylinder.pi * self.radius ** 2
 
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
