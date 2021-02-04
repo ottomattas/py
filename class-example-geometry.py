@@ -129,3 +129,18 @@ print('Cylinder calculations')
 print('Volume is: ',cylinder.volume)
 print('Surface area is: ',cylinder.surface_area)
 
+############
+# LINE #
+############
+# CREATE AN INSTANCE OF A LINE THROUGH THE LINE CLASS
+coordinate1 = (3,2)
+coordinate2 = (8,10)
+
+line = Line(coordinate1,coordinate2)
+
+# PRINT A SEPARATOR WITH A COMMENT
+print('-----------------------')
+print('Line calculations')
+# PRINT VALUES
+print('Distance is: ',line.distance)
+print('Slope is: ',line.slope,'degrees')
