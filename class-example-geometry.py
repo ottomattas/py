@@ -53,6 +53,36 @@ class Cylinder:
     def surface_area(self):
         return 2 * Cylinder.pi * self.radius * (self.height + self.radius)
 
+# DEFINE THE LINE CLASS / OBJECT
+class Line:
+    
+    # LINE IS INSTANTIATED (WITH TWO COORDINATES)
+    def __init__(self,coor1,coor2):
+
+        # DEFINE INSTANCE ATTRIBUTES
+        self.coor1 = coordinate1
+        self.coor2 = coordinate2
+    
+    # DEFINE METHOD FOR CALCULATING DISTANCE
+    def distance(self):
+
+        # DEFINE LINE COORDINATES
+        x1,y1 = self.coor1
+        x2,y2 = self.coor2
+        
+        # RETURN DISTANCE
+        return ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+
+    # DEFINE METHOD FOR CALCULATING SLOPE
+    def slope(self):
+
+        # DEFINE LINE COORDINATES
+        x1,y1 = self.coor1
+        x2,y2 = self.coor2
+
+        # RETURN SLOPE
+        return (y2 - y1) / (x2 - x1)
+
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
 
