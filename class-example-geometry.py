@@ -128,6 +128,8 @@ print()
 print('-----------------------')
 print('Cylinder calculations')
 # PRINT VALUES
+print('Height is: ',cylinder.height)
+print('Radius is: ',cylinder.radius)
 print('Volume is: ',cylinder.volume())
 print('Surface area is: ',cylinder.surface_area())
 
