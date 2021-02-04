@@ -92,20 +92,23 @@ class Line:
 ######################################
 
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
-c = Circle()
-
-# PRINT VALUES
-print('Radius is: ',c.radius)
-print('Area is: ',c.area)
-print('Circumference is: ',c.getCircumference())
+circle = Circle()
 
 # PRINT A SEPARATOR WITH A COMMENT
 print('-----------------------')
-print('Resetting the radius:')
+print('Circle calculations')
+# PRINT VALUES
+print('Radius is: ',circle.radius)
+print('Area is: ',circle.area)
+print('Circumference is: ',circle.getCircumference())
+
+# PRINT A SEPARATOR WITH A COMMENT
+print('-----------------------')
+print('Resetting the circle radius:')
 # RESET THE RADIUS FOR THE INSTANCE
-c.setRadius(2)
+circle.setRadius(2)
 
 # PRINT VALUES FOR THE RESET INSTANCE
-print('Radius is: ',c.radius)
-print('Area is: ',c.area)
-print('Circumference is: ',c.getCircumference())
+print('Radius is: ',circle.radius)
+print('Area is: ',circle.area)
+print('Circumference is: ',circle.getCircumference())
