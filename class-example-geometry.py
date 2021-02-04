@@ -115,3 +115,17 @@ circle.setRadius(2)
 print('Radius is: ',circle.radius)
 print('Area is: ',circle.area)
 print('Circumference is: ',circle.getCircumference())
+
+############
+# CYLINDER #
+############
+# CREATE AN INSTANCE OF A CYLINDER THROUGH THE CYLINDER CLASS
+cylinder = Cylinder(2,3)
+
+# PRINT A SEPARATOR WITH A COMMENT
+print('-----------------------')
+print('Cylinder calculations')
+# PRINT VALUES
+print('Volume is: ',cylinder.volume)
+print('Surface area is: ',cylinder.surface_area)
+
