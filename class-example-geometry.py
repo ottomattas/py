@@ -47,11 +47,11 @@ class Cylinder:
 
     # DEFINE METHOD FOR CALCULATING VOLUME  
     def volume(self):
-        return 2 * Cylinder.pi * self.radius
+        return Cylinder.pi * self.radius ** 2 * self.height
     
     # DEFINE METHOD FOR CALCULATING SURFACE AREA
     def surface_area(self):
-        return Cylinder.pi * self.radius ** 2
+        return 2 * Cylinder.pi * self.radius * (self.height + self.radius)
 
 # CREATE AN INSTANCE OF A CIRCLE THROUGH THE CIRCLE CLASS
 c = Circle()
