@@ -113,9 +113,9 @@ print('Resetting the circle radius')
 circle.setRadius(2)
 
 # PRINT VALUES FOR THE RESET INSTANCE
-print('Radius is: ',circle.radius)
-print('Area is: ',circle.area)
-print('Circumference is: ',circle.getCircumference())
+print('New radius is: ',circle.radius)
+print('New area is: ',circle.area)
+print('New circumference is: ',circle.getCircumference())
 
 ############
 # CYLINDER #
