@@ -3,7 +3,7 @@
 
 Filename | Content
 ------------ | -------------
-**class-example-circle.py** | a simple class to calculate area and circumference for a circle
+**class-example-geometry.py** | a simple class to calculate values for geometrical objects
 **class-example-inheritance.py** | a simple class inheritance example to show basic principles
 **class-example-magic.py** | a simple class with magic methods
 **hello-world-gui-remi.py** | a simple GUI to be rendered in browser using [remi](https://pypi.org/project/remi/)
