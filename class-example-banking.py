@@ -54,3 +54,10 @@ class Account:
     def __str__(self):
         return f'Account owner: {self.owner} \nAccount balance: {self.balance}'
 
+######################################
+# CREATE INSTANCES AND PRINT RESULTS #
+######################################
+
+# CREATE INSTANCES OF ACCOUNTS THROUGH THE ACCOUNT CLASS
+account1 = Account('Bob',100)
+account2 = Account('Bill')
