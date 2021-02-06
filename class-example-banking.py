@@ -45,3 +45,8 @@ class Account:
             # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
             print(f'Withdrawal successful! New balance: {self.balance}')
 
+        # BALANCE IS NOT ENOUGH TO WITHDRAW
+        else:
+            # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
+            print(f'Sorry, not enough funds! Current balance: {self.balance}')
+
