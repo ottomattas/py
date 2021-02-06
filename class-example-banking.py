@@ -33,3 +33,11 @@ class Account:
         # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
         print(f'Deposit accepted! New balance: {self.balance}')
 
+    # DEFINE METHOD FOR WITHDRAWING
+    def withdraw(self, amount):
+
+        # CHECK FOR ENOUGH BALANCE TO WITHDRAW
+        if amount <= self.balance:
+
+            # REDUCE AMOUNT FROM BALANCE
+            self.balance = self.balance - amount
