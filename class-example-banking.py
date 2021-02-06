@@ -50,3 +50,7 @@ class Account:
             # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
             print(f'Sorry, not enough funds! Current balance: {self.balance}')
 
+    # DEFINE METHOD FOR RETURNING ACCOUNT INFORMATION
+    def __str__(self):
+        return f'Account owner: {self.owner} \nAccount balance: {self.balance}'
+
