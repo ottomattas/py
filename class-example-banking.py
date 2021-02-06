@@ -9,3 +9,10 @@ __version__ = "0.1"
 __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
+
+#####################
+# CLASS DEFINITIONS #
+#####################
+
+# DEFINE THE ACCOUNT CLASS / OBJECT
+class Account:
