@@ -16,3 +16,10 @@ __status__ = "Development"
 
 # DEFINE THE ACCOUNT CLASS / OBJECT
 class Account:
+
+    # ACCOUNT IS INSTANTIATED (WITH DEFAULT BALANCE)
+    def __init__(self, owner, balance=0):
+
+        # DEFINE INSTANCE ATTRIBUTES
+        self.owner = owner
+        self.balance = balance
