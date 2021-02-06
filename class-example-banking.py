@@ -23,3 +23,13 @@ class Account:
         # DEFINE INSTANCE ATTRIBUTES
         self.owner = owner
         self.balance = balance
+
+    # DEFINE METHOD FOR DEPOSITING
+    def deposit(self, amount):
+    
+        # ADD AMOUNT TO BALANCE
+        self.balance = self.balance + amount
+
+        # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
+        print(f'Deposit accepted! New balance: {self.balance}')
+
