@@ -41,3 +41,7 @@ class Account:
 
             # REDUCE AMOUNT FROM BALANCE
             self.balance = self.balance - amount
+
+            # PRINT OUT A MESSAGE WITH NEW BALANCE STATEMENT
+            print(f'Withdrawal successful! New balance: {self.balance}')
+
