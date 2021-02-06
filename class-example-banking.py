@@ -61,3 +61,24 @@ class Account:
 # CREATE INSTANCES OF ACCOUNTS THROUGH THE ACCOUNT CLASS
 account1 = Account('Bob',100)
 account2 = Account('Bill')
+
+# PRINT A SEPARATOR WITH A COMMENT
+print()
+print('-----------------------')
+print('ACCOUNT 1')
+print('-----------------------')
+# PRINT VALUES
+print(account1)
+print('-')
+print('-')
+print(account1)
+
+# PRINT A SEPARATOR WITH A COMMENT
+print()
+print('-----------------------')
+print('ACCOUNT 2')
+print('-----------------------')
+print(account2)
+print('-')
+print('-')
+print(account2)
