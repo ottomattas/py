@@ -14,11 +14,6 @@ Filename | Content
   \\_  **mymodule.py** | a simple module
   \\_  **myprogram.py** | a simple program to import packages and modules and call methods
 
-The action of every agent <br />
-  into the world <br />
-starts <br />
-  from their physical selves. <br />
-
 ## my python problems
 
 Filename | Content
