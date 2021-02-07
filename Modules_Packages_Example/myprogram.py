@@ -25,7 +25,7 @@ my_main_script.report_main()
 print('-----------')
 
 # IMPORT SUBPACKAGE
-from MyMainPackage.SubPackage import my_subscript
+from MyMainPackage.MySubPackage import my_subscript
 
 # CALL METHOD FROM SUBPACKAGE
 my_subscript.sub_report()
