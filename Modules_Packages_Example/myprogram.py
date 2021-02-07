@@ -12,3 +12,7 @@ __status__ = "Development"
 
 # IMPORT METHOD FROM MODULE
 from mymodule import my_func
+
+# CALL THE METHOD
+my_func()
+print('-----------')
