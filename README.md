@@ -6,10 +6,10 @@ Filename | Content
 ------------ | -------------
 **Modules_Packages_Example** | a folder to house my python modules and packages
   \\_  **MyMainPackage** | a folder to house my main package
-    \\_  **__init__.py** | init file to initialise the package
+    \|_  **__init__.py** | init file to initialise the package
     \|_  **my_main_script.py** | my main package 
   \\_  **MySubPackage** | a folder to house my subpackage
-    \\_  **__init__.py** | init file to initialise the package
+    \|_  **__init__.py** | init file to initialise the package
     \|_  **my_subpackage.py** | my subpackage
   \\_  **mymodule.py** | a simple module
   \\_  **myprogram.py** | a simple program to import packages and modules and call methods
