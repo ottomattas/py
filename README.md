@@ -5,14 +5,14 @@
 Filename | Content
 ------------ | -------------
 **Modules_Packages_Example/** | a folder to house my python modules and packages
-- **MyMainPackage** | a folder to house my main package
-  - **__init__.py** | init file to initialise the package
-  - **my_main_script.py** | my main package 
-- **MySubPackage** | a folder to house my subpackage
-  - **__init__.py** | init file to initialise the package
-  - **my_subpackage.py** | my subpackage
-- **mymodule.py** | a simple module
-- **myprogram.py** | a simple program to import packages and modules and call methods 
+    \- **MyMainPackage** | a folder to house my main package
+        \-- **__init__.py** | init file to initialise the package
+        |-- **my_main_script.py** | my main package 
+    \- **MySubPackage** | a folder to house my subpackage
+        \-- **__init__.py** | init file to initialise the package
+        |-- **my_subpackage.py** | my subpackage
+    \- **mymodule.py** | a simple module
+    \- **myprogram.py** | a simple program to import packages and modules and call methods
 
 ## my python problems
 
