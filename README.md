@@ -5,7 +5,7 @@
 Filename | Content
 ------------ | -------------
 **Modules_Packages_Example** | a folder to house my python modules and packages
-  \_  **MyMainPackage** | a folder to house my main package
+  \\_  **MyMainPackage** | a folder to house my main package
     \_  **__init__.py** | init file to initialise the package
     \|_  **my_main_script.py** | my main package 
   \_  **MySubPackage** | a folder to house my subpackage
