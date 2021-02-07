@@ -3,6 +3,7 @@
 
 Filename | Content
 ------------ | -------------
+**class-example-banking.py** | a simple class to manage an account
 **class-example-geometry.py** | a simple class to calculate values for geometrical objects
 **class-example-inheritance.py** | a simple class inheritance example to show basic principles
 **class-example-magic.py** | a simple class with magic methods
