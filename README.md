@@ -1,4 +1,11 @@
 # py
+
+## my python modules and packages
+
+Filename | Content
+------------ | -------------
+**Modules_Packages_Example/** | a folder to house my python modules and packages
+
 ## my python problems
 
 Filename | Content
