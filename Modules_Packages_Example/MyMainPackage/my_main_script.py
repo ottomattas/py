@@ -8,3 +8,7 @@ __version__ = "0.1"
 __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
+
+# DEFINE METHOD FOR PRINTING AN INFORMATIONAL
+def report_main():
+    print('Hey, I\'m a method in ./MyMainPackage/' + '\033[1m' + 'my_main_script.py' + '\033[0m' + '.')
