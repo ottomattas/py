@@ -16,3 +16,6 @@ from mymodule import my_func
 # CALL THE METHOD
 my_func()
 print('-----------')
+
+# IMPORT MAIN PACKAGE
+from MyMainPackage import my_main_script
