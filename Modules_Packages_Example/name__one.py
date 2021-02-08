@@ -13,3 +13,14 @@ __status__ = "Development"
 # DEFINE METHOD FOR PRINTING AN INFORMATIONAL
 def func():
     print('func() in one.py')
+
+# CHECK IF SCRIPT IS BEING RUN DIRECTLY
+# THROUGH BUILT-IN VARIABLE __name__
+if __name__ == '__main__':
+
+    # IF SCRIPT IS RAN DIRECTLY
+    print('one.py is being run directly!')
+else:
+
+    # IF SCRIPT IS RAN THROUGH IMPORT
+    print('one.py has been imported!')
