@@ -10,3 +10,5 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
 
+# IMPORT MODULE
+import name__one
