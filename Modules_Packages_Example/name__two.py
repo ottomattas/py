@@ -12,3 +12,6 @@ __status__ = "Development"
 
 # IMPORT MODULE
 import name__one
+
+# CALL METHOD FROM MODULE
+name__one.func()
