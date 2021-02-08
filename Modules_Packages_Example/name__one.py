@@ -10,3 +10,6 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
 
+# DEFINE METHOD FOR PRINTING AN INFORMATIONAL
+def func():
+    print('func() in one.py')
