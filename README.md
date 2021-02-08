@@ -13,6 +13,10 @@ Filename | Content
     \|_  **my_subpackage.py** | my subpackage
   \\_  **mymodule.py** | a simple module
   \\_  **myprogram.py** | a simple program to import packages and modules and call methods
+  \\_  **name__one.py** | a simple script for explaining
+the built-in __name__ variable
+  \\_  **name__two.py** | a simple script for explaining
+the built-in __name__ variable
 
 ## my python problems
 
