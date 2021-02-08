@@ -15,3 +15,14 @@ import name__one
 
 # CALL METHOD FROM MODULE
 name__one.func()
+
+# CHECK IF SCRIPT IS BEING RUN DIRECTLY
+# THROUGH BUILT-IN VARIABLE __name__
+if __name__ == '__main__':
+
+    # IF SCRIPT IS RAN DIRECTLY
+    print('two.py is being run directly!')
+else:
+
+    # IF SCRIPT IS RAN THROUGH IMPORT
+    print('two.py has been imported!')
