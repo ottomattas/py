@@ -9,3 +9,7 @@ __version__ = "0.1"
 __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
+
+# IMPORT MODULES
+import unittest
+import capitalise as cap
