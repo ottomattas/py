@@ -20,6 +20,8 @@ Filename | Content
 
 Filename | Content
 ------------ | -------------
+**capitalise_test.py** | a simple unittest to check **capitalise.py**
+**capitalise.py** | a simple to capitalise a string
 **class-example-banking.py** | a simple class to manage an account
 **class-example-geometry.py** | a simple class to calculate values for geometrical objects
 **class-example-inheritance.py** | a simple class inheritance example to show basic principles
