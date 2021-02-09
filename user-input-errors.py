@@ -24,3 +24,7 @@ def getNumber():
         except:
             print('This is not a valid number. Try again.')
             continue
+
+        # BREAK OUT WHEN VALID NUMBER IS GIVEN
+        else:
+            break
