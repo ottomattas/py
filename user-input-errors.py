@@ -12,4 +12,6 @@ __status__ = "Development"
 
 # DEFINE THE USER CHOICE INPUT FUNCTION
 def getNumber():
-    pass
+
+    # KEEP ASKING FOR VALID INPUT
+    while True:
