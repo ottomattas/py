@@ -28,3 +28,6 @@ def getNumber():
         # BREAK OUT WHEN VALID NUMBER IS GIVEN
         else:
             break
+
+    # PRINT OUT AN INFORMATIONAL RESULT
+    print(a**2)
