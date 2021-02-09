@@ -20,3 +20,7 @@ def getNumber():
         try:
             a = int(input('Enter a number: '))
 
+        # THROW AN EXCEPTION
+        except:
+            print('This is not a valid number. Try again.')
+            continue
