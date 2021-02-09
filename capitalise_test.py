@@ -13,3 +13,6 @@ __status__ = "Development"
 # IMPORT MODULES
 import unittest
 import capitalise as cap
+
+# CREATE A CLASS TO BE CALLED AT THE END
+class TestCap(unittest.TestCase):
