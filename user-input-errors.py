@@ -10,3 +10,6 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Development"
 
+# DEFINE THE USER CHOICE INPUT FUNCTION
+def getNumber():
+    pass
