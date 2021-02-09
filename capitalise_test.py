@@ -14,6 +14,9 @@ __status__ = "Development"
 import unittest
 import capitalise as cap
 
+# CREATE A CLASS TO BE CALLED AT THE END
+class TestCap(unittest.TestCase):
+
     # CREATE A METHOD TO BE CALLED TO TEST ONE WORD
     def test_one_word(self):
 
