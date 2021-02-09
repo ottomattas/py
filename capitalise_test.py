@@ -41,3 +41,7 @@ class TestCap(unittest.TestCase):
         # CHECK IF RESULT IS AS EXPLICITLY ASSRTED
         self.assertEqual(result, 'Monty Python')
 
+# CHECK IF SCRIPT IS BEING RUN DIRECTLY
+# THROUGH BUILT-IN VARIABLE __name__
+if __name__ == '__main__':
+    unittest.main()
