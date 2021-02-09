@@ -18,7 +18,7 @@ def getNumber():
 
         # TRY TO CONVERT THE INPUT TO INT
         try:
-            a = int(input('Enter a number: '))
+            number = int(input('Enter a number: '))
 
         # THROW AN EXCEPTION
         except:
@@ -28,9 +28,9 @@ def getNumber():
         # BREAK OUT WHEN VALID NUMBER IS GIVEN
         else:
             break
-    
+
     # PRINT OUT AN INFORMATIONAL RESULT
-    print(a**2)
+    print(number**2)
 
 # CALL METHOD FOR TESTING
 getNumber()
