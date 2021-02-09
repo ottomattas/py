@@ -29,3 +29,15 @@ class TestCap(unittest.TestCase):
         # CHECK IF RESULT IS AS EXPLICITLY ASSRTED
         self.assertEqual(result, 'Python')
 
+    # CREATE A METHOD TO BE CALLED TO TEST MULTIPLE WORDS
+    def test_many_words(self):
+
+        # DEFINE A VARIABLE
+        text = 'monty python'
+
+        # CALL A METHOD FROM IMPORTED SCRIPT
+        result = cap.cap_text(text)
+
+        # CHECK IF RESULT IS AS EXPLICITLY ASSRTED
+        self.assertEqual(result, 'Monty Python')
+
