@@ -15,3 +15,8 @@ def getNumber():
 
     # KEEP ASKING FOR VALID INPUT
     while True:
+
+        # TRY TO CONVERT THE INPUT TO INT
+        try:
+            a = int(input('Enter a number: '))
+
