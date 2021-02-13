@@ -18,3 +18,7 @@ __status__ = "Testing"
 # DECK CLASS
 
 # PLAYER CLASS
+
+##############
+# GAME LOGIC #
+##############
