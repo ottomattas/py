@@ -8,3 +8,13 @@ __version__ = "0.9"
 __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Testing"
+
+#####################
+# CLASS DEFINITIONS #
+#####################
+
+# CARD CLASS
+
+# DECK CLASS
+
+# PLAYER CLASS
