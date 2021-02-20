@@ -21,6 +21,11 @@ values = {'Two':2,'Three':3,'Four':4,'Five':5,'Six':6,
 # DEFINE TUPLE FOR SUITS
 suits = ('Hearts','Diamonds','Spades','Clubs')
 
+# DEFINE TUPLE FOR RANKS
+ranks = ('Two','Three','Four','Five','Six',
+        'Seven','Eight','Nine','Ten',
+        'Jack','Queen','King','Ace')
+
 #####################
 # CLASS DEFINITIONS #
 #####################
