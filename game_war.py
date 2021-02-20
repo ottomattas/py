@@ -23,7 +23,8 @@ class Card():
 
     # DEFINE A STRING METHOD TO HELP HUMAN UNDERSTAND THE CARD
     def __str__(self):
-        return self.rank + " of " + self.suit
+        return self.rank + ' of ' + self.suit
+
 
 # DECK CLASS
 
