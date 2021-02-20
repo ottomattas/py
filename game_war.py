@@ -45,6 +45,12 @@ class Card():
     def __str__(self):
         return self.rank + ' of ' + self.suit
 
+# CREATE A SMALL TEST
+three_of_clubs = Card('Clubs','Three')
+two_of_hearts = Card('Hearts','Two')
+
+if three_of_clubs.value > two_of_hearts.value:
+    print('Yay!')
 
 # DECK CLASS
 
