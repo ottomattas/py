@@ -21,6 +21,10 @@ class Card():
         self.suit = suit
         self.rank = rank
 
+    # Define a string method to help human understand the card
+    def __str__(self):
+        return self.rank + " of " + self.suit
+
 # DECK CLASS
 
 # PLAYER CLASS
