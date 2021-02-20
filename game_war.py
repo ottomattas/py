@@ -9,6 +9,10 @@ __maintainer__ = "Otto Mättas"
 __email__ = "otto.mattas@eesti.ee"
 __status__ = "Testing"
 
+####################
+# GLOBAL VARIABLES #
+####################
+
 #####################
 # CLASS DEFINITIONS #
 #####################
