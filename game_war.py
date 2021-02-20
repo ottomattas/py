@@ -29,6 +29,9 @@ class Card():
     def __init__(self,suit,rank):
         self.suit = suit
         self.rank = rank
+        # LOOK FOR THE VALUE OF THE INSTANTIATED CARD IN THE VALUES DICT
+        # BASED ON RANK
+        self.value = values[rank]
 
     # DEFINE A STRING METHOD TO HELP HUMAN UNDERSTAND THE CARD
     def __str__(self):
