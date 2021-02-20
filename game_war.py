@@ -16,12 +16,12 @@ __status__ = "Testing"
 # CARD CLASS
 class Card():
 
-    # Card is instantiated
+    # CARD IS INSTANTIATED WITH SUIT AND RANK
     def __init__(self,suit,rank):
         self.suit = suit
         self.rank = rank
 
-    # Define a string method to help human understand the card
+    # DEFINE A STRING METHOD TO HELP HUMAN UNDERSTAND THE CARD
     def __str__(self):
         return self.rank + " of " + self.suit
 
