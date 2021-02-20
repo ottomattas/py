@@ -14,7 +14,12 @@ __status__ = "Testing"
 #####################
 
 # CARD CLASS
+class Card():
 
+    # Card is instantiated
+    def __init__(self,suit,rank):
+        self.suit = suit
+        self.rank = rank
 
 # DECK CLASS
 
