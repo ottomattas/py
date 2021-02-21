@@ -53,6 +53,7 @@ if three_of_clubs.value > two_of_hearts.value:
     print('Yay!')
 
 # DECK CLASS
+class Deck():
 
 # PLAYER CLASS
 
